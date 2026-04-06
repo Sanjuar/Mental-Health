@@ -126,6 +126,7 @@ We scanned all posts for **isolation phrases** expressions that signal a sense 
 **Why this matters**
 
 Feeling uniquely alone is a core component of many mental health struggles. This analysis quantifies that isolation and identifies which groups experience it most intensely.
+
 Anxiety                   0.0146  ███████
 
 Normal                    0.0021  █
