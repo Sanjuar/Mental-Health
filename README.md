@@ -50,3 +50,5 @@ To grasp the composition of the dataset, we created a **bar chart** and a **p
 **Why this matters**
 
 Understanding the distribution ensures that any patterns we later observe are based on a realistic representation of the data and helps us avoid over‑generalizing from rare categories.
+![Mental Health Analysis](analysis_dashboard.png)
+## 2.1 Understanding the Data Distribution
