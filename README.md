@@ -6,7 +6,7 @@ This report analyzes over 50,000 text posts labeled with seven mental health cat
 
 - **Depression and Suicidal** posts share the most similar language (correlation 0.75), reflecting overlapping themes of pain and hopelessness.
 - **Depression** has the highest rate of exposure to dismissive phrases like “get over it” or “just be happy,” highlighting a societal misunderstanding of the condition.
-- **Personality disorder** posts contain the strongest “isolation” signals—people with this diagnosis frequently ask if they are “the only one” feeling a certain way.
+- **Personality disorder** posts contain the strongest “isolation” signals people with this diagnosis frequently ask if they are “the only one” feeling a certain way.
 - **Normal** posts are short, routine‑focused, and linguistically distinct from all clinical categories.
 - **Word clouds and bigram analysis** reveal that the most common phrase across nearly all conditions is “feel like,” underscoring the challenge of articulating internal mental states.
 
@@ -16,7 +16,7 @@ These findings demonstrate that language can be a powerful window into mental he
 
 Mental health challenges are often expressed in written language long before they are discussed with a professional. Understanding how different conditions manifest in text can help researchers, clinicians, and support communities recognize patterns and provide more effective help.
 
-In this study, we analyzed a dataset of 52,681 posts, each labeled with one of seven mental health categories. Using a variety of text analysis techniques—ranging from simple word counts to advanced topic modeling and correlation analysis—we aimed to answer:
+In this study, we analyzed a dataset of 52,681 posts, each labeled with one of seven mental health categories. Using a variety of text analysis techniques—ranging from simple word counts to advanced topic modeling and correlation analysis we aimed to answer:
 
 - What are the most common words and phrases used by each group?
 - How do the categories differ in terms of text length, sentiment, and isolation language?
