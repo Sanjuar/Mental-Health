@@ -296,4 +296,3 @@ The results of this experiment indicate that it is possible to use textual infor
 - Word clouds, bigrams, and topic models give three sides of each mental condition, focusing on vocabulary, context, and topics.
 - Correlation analysis validates the classification, proving the existence of natural clusters (depression-suicide, anxiety-stress).
 
-Such discoveries will help to develop automatic diagnostic instruments for assessing people's mental state, to understand the language used by the community members, and to identify the aspects of social behavior that are likely to harm the patients
