@@ -48,7 +48,7 @@ To grasp the composition of the dataset, we created a **bar chart** and a **p
 **Why this matters**
 
 Understanding the distribution ensures that any patterns we later observe are based on a realistic representation of the data and helps us avoid over‑generalizing from rare categories.
-![Mental Health Analysis](analysis_dashboard.png)
+![Analysis Dashboard](assets/analysis_dashboard.png)
 ## 2.2 The Language of Mental Health: Word Clouds
 
 Word clouds were created for each category without stop words. In these word clouds, the size of the words shows their frequencies in that particular category.
@@ -74,7 +74,7 @@ In other categories such as Stress, Bipolar, and Personality disorder, moderate 
 **Key insight**
 
 The word clouds reveal a clear “vocabulary shift” from routine (Normal) to internal struggle (Depression, Anxiety) to crisis (Suicidal). This validates the classification and shows that language meaningfully differentiates the conditions.
-![Word Cloud](wordcloud_analysis.png)
+![Word Cloud](assets/image.png)
 
 ### **2.3 Top Phrases Used by Category (Bigram Analysis)**
 
@@ -240,7 +240,7 @@ This correlation map serves as scientific validation that our classification acc
 
 ## 🔥 Keyword Heatmap Analysis
 
-![Keyword Heatmap](keyword_heatmap.png)
+![Keyword Heatmap](/assets/keyword_heatmap.png)
 
 ## **3. How We Did It: Methodology**
 
