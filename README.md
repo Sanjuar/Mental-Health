@@ -2,28 +2,26 @@
 
 ## **Executive Summary**
 
-This report analyzes over 50,000 text posts labeled with seven mental health categories: Anxiety, Depression, Suicidal, Bipolar, Stress, Personality disorder, and Normal (no diagnosis). Through a combination of linguistic analysis, topic modeling, and statistical comparisons, we uncovered distinct patterns in how each condition expresses itself. Key findings include:
+The report analyzes over 50,000 texts posts separated into seven mental health groups: Anxiety, Depression, Suicidal, Bipolar, Stress, Personality Disorder, and Normal (no disorder). Using linguistic analysis, topic modeling, and comparison of different metrics, clear patterns emerged that differentiate the languages used by people with each specific disorder. The main results include the following:
 
-- **Depression and Suicidal** posts share the most similar language (correlation 0.75), reflecting overlapping themes of pain and hopelessness.
-- **Depression** has the highest rate of exposure to dismissive phrases like “get over it” or “just be happy,” highlighting a societal misunderstanding of the condition.
-- **Personality disorder** posts contain the strongest “isolation” signals people with this diagnosis frequently ask if they are “the only one” feeling a certain way.
-- **Normal** posts are short, routine‑focused, and linguistically distinct from all clinical categories.
-- **Word clouds and bigram analysis** reveal that the most common phrase across nearly all conditions is “feel like,” underscoring the challenge of articulating internal mental states.
-
-These findings demonstrate that language can be a powerful window into mental health, and the methods used here can inform better support systems and automated screening tools.
+- Similarity between language used by people with Depression and Suicidal disorder is the highest correlation at 0.75 since both conditions revolve around suffering and despair.
+- People with Depression face the most exposure to dismissive comments such as "get over it" and "just be happy" due to societal ignorance of the problem.
+- Language used in Personality Disorder posts demonstrates clear signals of isolation, with people wondering if they are "the only ones" feeling that way.
+- Posts with Normal status are brief and routine-oriented, clearly standing apart from all other categories of people's mental health disorders.
+- Word cloud analysis proves that the phrase "feel like" appears most frequently in all cases because it is difficult to explain one's emotional state.
 
 ## **1. Introduction**
 
-Mental health challenges are often expressed in written language long before they are discussed with a professional. Understanding how different conditions manifest in text can help researchers, clinicians, and support communities recognize patterns and provide more effective help.
+Many of the issues concerning mental health become evident through written words much earlier than they are ever discussed with an expert. The knowledge about what different kinds of problems look like in writing can help specialists, scientists, and social networks provide appropriate assistance to those in need.
 
-In this study, we analyzed a dataset of 52,681 posts, each labeled with one of seven mental health categories. Using a variety of text analysis techniques—ranging from simple word counts to advanced topic modeling and correlation analysis we aimed to answer:
+This paper describes a study based on a dataset containing 52,681 entries belonging to one of the seven categories associated with mental health conditions. Using such methods of analyzing texts as simple word counting, topic modeling, and correlation analysis, we tried to answer the following questions:
 
-- What are the most common words and phrases used by each group?
-- How do the categories differ in terms of text length, sentiment, and isolation language?
-- Which conditions share similar vocabulary?
-- How often are people struggling with mental health exposed to dismissive or unhelpful advice?
+- What are the most frequent words and phrases among the members of each community?
+- What are the differences between categories in terms of length, positivity/negativity, and statements about isolation?
+- Are there any similarities in the vocabulary of some types of mental health problems?
+- How often do people with mental health problems get unconstructive advice from others?
 
-The following sections detail our findings, followed by a full explanation of the methodology.
+Further paragraphs contain results of the research and methodological explanations.
 
 ## **2. Analysis and Findings**
 
@@ -43,9 +41,9 @@ To grasp the composition of the dataset, we created a **bar chart** and a **p
 
 **Findings**
 
-- Over 60% of the data falls into “Normal” and “Depression,” making them the dominant voices in the dataset.
-- Suicidal posts constitute a significant 20.8%, indicating a substantial presence of high‑risk conversations.
-- The smaller categories (Anxiety, Bipolar, Stress, Personality disorder) still provide valuable insights but should be interpreted with awareness of their lower sample sizes.
+- The majority (more than 60%) is grouped under “Normal” and “Depression,” which are the two dominant groups in the database.
+- Suicide-related posts constitute 20.8% of the total, reflecting that there are many conversations of high risk.
+- Despite being small, the minority groups provide interesting findings, but their interpretation needs to be considered in light of the small sample size.
 
 **Why this matters**
 
@@ -53,29 +51,25 @@ Understanding the distribution ensures that any patterns we later observe are ba
 ![Mental Health Analysis](analysis_dashboard.png)
 ## 2.2 The Language of Mental Health: Word Clouds
 
-We generated **word clouds** for each category after removing stopwords. In these images, the size of a word reflects its frequency within that group.
+Word clouds were created for each category without stop words. In these word clouds, the size of the words shows their frequencies in that particular category.
 
 **Anxiety**
-
-- Dominant words: *feel, know, time, work, think*
-- The language centers on internal processes and their impact on daily life.
+- Key words: feel, know, time, work, think
+- Concentrates on inner activities and their effects on daily routine.
 
 **Depression**
-
-- Dominant words: *feel, life, want, people, friend*
-- Heavy focus on social connection, life outlook, and desires.
+- Key words: feel, life, want, people, friend
+- Focuses on connections among people, view on life, and personal desires.
 
 **Suicidal**
-
-- Dominant words: *want, end, life, die, feel*
-- Distinctly serious vocabulary; words like “end” and “die” appear frequently, confirming the high‑risk nature of this group.
+- Key words: want, end, life, die, feel
+- Vocabulary is more severe in nature; there are many uses of words such as “end” and “die,” reflecting the severity of this category.
 
 **Normal**
+- Key words: day, good, work, people, go
+- Talks about day-to-day activities with positive words such as “good.”
 
-- Dominant words: *day, good, work, people, go*
-- Conversations revolve around routines and everyday activities, with positive words like “good” appearing more often.
-
-**Other categories** (Stress, Bipolar, Personality disorder) show intermediate patterns, with Bipolar posts containing clinical terms like “manic” and “medication,” and Personality disorder posts focusing on “avoid” and “people.”
+In other categories such as Stress, Bipolar, and Personality disorder, moderate trends can be observed; the bipolar category includes clinical words like “manic” and “medication,” while the personality disorder category has frequent uses of the word “avoid.”
 
 **Key insight**
 
@@ -293,13 +287,13 @@ This correlation map serves as scientific validation that our classification acc
 
 ## **4. Conclusion**
 
-This study demonstrates that **textual data can reveal deep, meaningful differences between mental health conditions**. By applying a range of text analysis techniques, we uncovered:
+The results of this experiment indicate that it is possible to use textual information to uncover meaningful differences between various mental health disorders. The analysis of different types of text information revealed the following:
 
-- **Depression** is characterized by chronic language (“every day”), high dismissal rates, and strong similarity to Suicidal content.
-- **Suicidal** posts contain distinct crisis phrases (“cannot take”) and high‑risk vocabulary.
-- **Personality disorder** shows the strongest isolation signals and a unique focus on relationships and avoidance.
-- **Normal** posts are short, routine‑oriented, and linguistically separate from all clinical categories.
-- **Word clouds, bigrams, and topic models** each provide complementary views of the vocabulary, context, and themes within each condition.
-- **Correlation analysis** validates the classification and reveals natural clusters (Depression–Suicidal, Anxiety–Stress).
+- **Depressive** messages are associated with frequent usage of persistent language ("every day"), have high rates of dismissing people, and resemble suicides.
+- **Suicidal** messages feature crisis language such as "cannot take" and have a risk vocabulary.
+- **Personality disorder** is marked by the highest isolation rate and is focused on interpersonal relations and avoidance.
+- **Normal** messages are brief, routine-oriented, and distinctive compared to all other clinical cases.
+- Word clouds, bigrams, and topic models give three sides of each mental condition, focusing on vocabulary, context, and topics.
+- Correlation analysis validates the classification, proving the existence of natural clusters (depression-suicide, anxiety-stress).
 
-These findings can inform the development of automated mental health screening tools, help support communities better understand the language of their members, and highlight areas where societal responses (like dismissive phrases) may be most harmful.
+Such discoveries will help to develop automatic diagnostic instruments for assessing people's mental state, to understand the language used by the community members, and to identify the aspects of social behavior that are likely to harm the patients
