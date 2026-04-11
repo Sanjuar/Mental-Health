@@ -14,7 +14,7 @@ The report analyzes over 50,000 texts posts separated into seven mental health g
 
 Many of the issues concerning mental health become evident through written words much earlier than they are ever discussed with an expert. The knowledge about what different kinds of problems look like in writing can help specialists, scientists, and social networks provide appropriate assistance to those in need.
 
-This paper describes a study based on a dataset containing 52,681 entries belonging to one of the seven categories associated with mental health conditions. Using such methods of analyzing texts as simple word counting, topic modeling, and correlation analysis, we tried to answer the following questions:
+This paper describes a study based on a dataset containing 52,681 entries belonging to one of the seven categories associated with mental health conditions. Using such methods of analyzing texts as simple word counting, topic modeling, and correlation analysis, i tried to answer the following questions:
 
 - What are the most frequent words and phrases among the members of each community?
 - What are the differences between categories in terms of length, positivity/negativity, and statements about isolation?
@@ -49,7 +49,7 @@ To grasp the composition of the dataset, we created a **bar chart** and a **p
 
 Understanding the distribution ensures that any patterns we later observe are based on a realistic representation of the data and helps us avoid over‑generalizing from rare categories.
 ![Analysis Dashboard](assets/analysis_dashboard.png)
-## 2.2 The Language of Mental Health: Word Clouds
+## 2.2 Analyzing Mental Health Through Language Visualization
 
 Word clouds were created for each category without stop words. In these word clouds, the size of the words shows their frequencies in that particular category.
 
