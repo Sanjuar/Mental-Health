@@ -14,7 +14,7 @@ The report analyzes over 50,000 texts posts separated into seven mental health g
 
 Many of the issues concerning mental health become evident through written words much earlier than they are ever discussed with an expert. The knowledge about what different kinds of problems look like in writing can help specialists, scientists, and social networks provide appropriate assistance to those in need.
 
-This paper describes a study based on a dataset containing 52,681 entries belonging to one of the seven categories associated with mental health conditions. Using such methods of analyzing texts as simple word counting, topic modeling, and correlation analysis, i tried to answer the following questions:
+This paper describes a study based on a dataset containing 52,681 entries belonging to one of the seven categories associated with mental health conditions. Using such methods of analyzing texts as simple word counting, topic modeling, and correlation analysis, I tried to answer the following questions:
 
 - What are the most frequent words and phrases among the members of each community?
 - What are the differences between categories in terms of length, positivity/negativity, and statements about isolation?
@@ -166,7 +166,7 @@ Depression is statistically the most likely to be met with dismissive advice. Th
 
 ---
 
-### **2.6 Top Phrases Used by Category (Bigram Analysis)**
+### **2.6 Topic Modeling (LDA Analysis)**
 
 We used **Latent Dirichlet Allocation (LDA)** to uncover hidden topics within each category. Below are the most representative themes.
 
@@ -278,12 +278,12 @@ This correlation map serves as scientific validation that our classification acc
 4. **Advanced Analysis**
     - **Isolation Phrases**: created a list of phrases (e.g., “am I the only one”) and counted occurrences per post; computed rates per category.
     - **Dismissal Phrases**: compiled a list of unhelpful advice phrases (e.g., “get over it”) and computed rates similarly.
-    - **Topic Modeling**: used `TfidfVectorizer` to convert text to a term‑document matrix, then applied `LatentDirichletAllocation` to extract topics for each category.
+    - **Topic Modeling**: used `TfidfVectorizer` to converted text to a term‑document matrix, then applied `LatentDirichletAllocation` to extract topics for each category.
     - **Correlation Analysis**: aggregated all text per category, transformed with `TfidfVectorizer`, and computed cosine similarity between vectors. Visualized with a heatmap.
 5. **Interpretation**
     - Compared patterns across categories, linked findings to clinical knowledge, and synthesized conclusions.
 
-**Help-Seeking & Recovery Patterns**
+##**3.3 Help-Seeking & Recovery Patterns**
 
 - Seeking Professional Help (therapy, medication)
 
