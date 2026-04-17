@@ -283,7 +283,70 @@ This correlation map serves as scientific validation that our classification acc
 5. **Interpretation**
     - Compared patterns across categories, linked findings to clinical knowledge, and synthesized conclusions.
 
----
+**Help-Seeking & Recovery Patterns**
+
+- Seeking Professional Help (therapy, medication)
+
+- Trying to Cope Alone (journaling, self-help)
+
+- Giving Up / Hopelessness (nothing helps, no point)
+
+- Feeling Better (recovered, happy again)
+
+1. How I Did It
+I used a simple keyword matching method. I created lists of common words and phrases for each of the four categories (e.g., "therapist" for Seeking Help, "no hope" for Giving Up). Then, I counted how many posts contained these keywords.
+
+
+**Overall Results (All 52,000 Posts)**
+
+Category	Total Mentions	Percentage
+Seeking Professional Help	7,652	14.5%
+Trying to Cope Alone	5,114	9.7%
+Feeling Better	2,341	4.4%
+Giving Up / No Hope	2,086	4.0%
+
+**Key Finding: People talked about professional help more than any other category.**
+
+3. **Results by Mental Health Status**
+Here is how each group behaved. I calculated the percentage of posts in each category that mentioned help-seeking, coping, hopelessness, or recovery.
+
+Status	Sought Help	Tried Alone	Gave Up	Feeling Better
+Bipolar	47.7%	15.0%	2.8%	6.9%
+Anxiety	26.8%	9.5%	1.5%	5.1%
+Depression	20.3%	15.2%	6.8%	7.5%
+Personality Disorder	16.0%	17.0%	5.4%	6.3%
+Suicidal	13.7%	12.3%	7.1%	5.3%
+Stress	13.0%	12.7%	1.9%	3.4%
+Normal (Control Group)	1.2%	1.1%	0.2%	0.5%
+
+![Recovery Chart](recovery1_by_category.png)
+
+4. **What I Learned (Simple Insights)**
+- Bipolar is different. Almost half (47.7%) of people with Bipolar mentioned professional help. This is likely because bipolar often requires medical management.
+
+- Depression and Suicidal groups are highest risk. They had the highest "Giving Up" rates (around 7%). They also had some of the highest "Feeling Better" rates, which is a hopeful sign.
+
+- Personality Disorder group tries alone the most. 17.0% of their posts mentioned self-coping methods like journaling or "working on it."
+
+- My method works. The "Normal" (control) group almost never used any mental health keywords (less than 1.5%). This means my keyword lists were accurate and did not produce false postive.
+
+5. **Real Post Examples**
+- Sought Help: "Anyone take medication for anxiety? My therapist recommended..."
+
+- Tried Alone: "I try to journal and keep working on my coping skills."
+
+- Gave Up: "There is no hope left. It's pointless."
+
+- Feeling Better: "Finally happy. I am in a better place now."
+
+6. **Final Summary**
+Professional help is the most discussed topic across all mental health posts.
+
+The Bipolar group is the most proactive about seeking professional help.
+
+The "Giving Up" keywords successfully identified the highest-risk groups (Depression and Suicidal).
+
+A small but real percentage of people in every group expressed feeling better or recovering.
 
 ## **4. Conclusion**
 
