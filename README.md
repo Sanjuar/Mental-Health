@@ -283,7 +283,7 @@ This correlation map serves as scientific validation that our classification acc
 5. **Interpretation**
     - Compared patterns across categories, linked findings to clinical knowledge, and synthesized conclusions.
 
-##**3.3 Help-Seeking & Recovery Patterns**
+### **3.3 Help-Seeking & Recovery Patterns**
 
 - Seeking Professional Help (therapy, medication)
 
